@@ -10,5 +10,5 @@ let horas = totalMins / 60;
 let mins = totalMins % 60;
 
 // Muestra el resultado en la consola y en una alerta
-console.log(`${totalMins} minutos son: ${horas} horas y ${mins} minutos`);
-alert(`${totalMins} minutos son: ${horas} horas y ${mins} minutos`);
+console.log(`${totalMins} minutos son: ${Math.floor(horas)} horas y ${mins} minutos`);
+alert(`${totalMins} minutos son: ${Math.floor(horas)} horas y ${mins} minutos`);
